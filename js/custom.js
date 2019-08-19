@@ -125,11 +125,7 @@ const context = {
         site3: 'XXX',
         link3: 'https://tools.pingdom.com/'
     },
-
-
-
-    ]
-};
+]};
 
 
 const templateElement = document.getElementById('templateHB');
