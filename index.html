@@ -22,16 +22,16 @@
 <script id="templateHB" type="text/x-handlebars=template">
     {{#each tools}}
     <li>
-        <a href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{title}}</a>
+        <a href="#Submenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{this.title}}</a>
             <ul class="collapse list-unstyled" id="Submenu">
                 <li>
-                    <a href="http://www.htmldog.com/" target="_blank" rel="noopener noreferrer">HTML Dog</a>
+                    <a href="{{this.link1}}" target="_blank" rel="noopener noreferrer">{{this.site1}}</a>
                 </li>
                 <li>
-                    <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a>
+                    <a href="{{this.link2}}" target="_blank" rel="noopener noreferrer">{{this.site2}}</a>
                 </li>
                 <li>
-                    <a href="https://www.quackit.com/" target="_blank" rel="noopener noreferrer">Quackit</a>
+                    <a href="{{this.link3}}" target="_blank" rel="noopener noreferrer">{{this.site3}}</a>
                 </li>
             </ul>
     </li>
