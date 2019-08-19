@@ -53,4 +53,4 @@ const templateElement = document.getElementById('templateHB');
 const templateSource = templateElement.innerHTML;
 const template = Handlebars.compile(templateSource);
 const compiledHTML = template(context);
-document.getElementById("sidebar").innerHTML = compiledHTML;
+document.getElementById("components").innerHTML = compiledHTML;
