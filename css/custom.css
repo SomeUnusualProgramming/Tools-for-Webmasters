@@ -77,6 +77,10 @@ h3 {
     border-bottom: 1px solid #008ae6;
 }
 
+.sidebar-header h3 {
+    text-align: center;
+}
+
 #sidebar ul.components {
     padding: 20px 0;
 }
