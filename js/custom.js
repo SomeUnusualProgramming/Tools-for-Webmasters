@@ -15,6 +15,7 @@ const context = {
     },
     {
         href: '#Submenu',
+        id: 'Submenu',
         title: 'HTML Tutorials',
         site1: 'HTML Dog',
         link1: 'http://www.htmldog.com/',
@@ -25,6 +26,7 @@ const context = {
     },
     {
         href: '#firstSubmenu',
+        id: 'firstSubmenu',
         title: 'Image bank',
         site1: 'PixaBay',
         link1: 'https://pixabay.com/',
@@ -35,6 +37,7 @@ const context = {
     },
     {
         href: '#secondSubmenu',
+        id: 'secondSubmenu',
         title: 'Icon bank',
         site1: 'Flaticon',
         link1: 'https://www.flaticon.com/',
@@ -47,6 +50,7 @@ const context = {
     },
     {
         href: '#thirdSubmenu',
+        id: 'thirdSubmenu',
         title: 'Colors',
         site1: 'Adobe Color',
         link1: 'https://color.adobe.com/pl/create/color-wheel/',
@@ -57,6 +61,7 @@ const context = {
     },
     {
         href: '#fourthSubmenu',
+        id: 'fourthSubmenu',
         title: 'Snippets',
         site1: 'Stack overflow',
         link1: 'https://stackoverflow.com/',
@@ -67,6 +72,7 @@ const context = {
     },
     {
         href: '#fifthSubmenu',
+        id: 'fifthSubmenu',
         title: 'Code Editors',
         site1: 'XXX Visual',
         link1: 'https://stackoverflow.com/',
@@ -77,6 +83,7 @@ const context = {
     },
     {
         href: '#sixthSubmenu',
+        id: 'sixthSubmenu',
         title: 'Validators',
         site1: 'W3C Validator',
         link1: 'https://validator.w3.org/',
@@ -87,6 +94,7 @@ const context = {
     },
     {
         href: '#seventhSubmenu',
+        id: 'seventhSubmenu',
         title: 'Image compresion',
         site1: 'JPEG Mini',
         link1: 'https://www.jpegmini.com/',
@@ -97,6 +105,7 @@ const context = {
     },
     {
         href: '#eigthSubmenu',
+        id: 'eigthSubmenu',
         title: 'Online Editors',
         site1: 'Codepen',
         link1: 'https://codepen.io/',
@@ -107,6 +116,7 @@ const context = {
     },
     {
         href: '#ninethSubmenu',
+        id: 'ninethSubmenu',
         title: 'RWD',
         site1: 'Active Demo',
         link1: 'https://activedemo.net/viewport-test',
