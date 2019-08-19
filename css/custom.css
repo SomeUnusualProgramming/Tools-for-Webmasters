@@ -21,10 +21,8 @@ a:focus {
     transition: all 0.3s;
 }
 
-h2 {
+.welcome {
     margin-top: -250px;
-    text-align: center;
-    font-size: 45px;
 }
 
 h3 {
