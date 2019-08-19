@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 const context = {
     tools: [ {
-        href: '#https://getbootstrap.com/docs/4.3/getting-started/introduction/',
+        href: 'https://getbootstrap.com/docs/4.3/getting-started/introduction/',
        title: 'Bootstrap',
     },
     {
