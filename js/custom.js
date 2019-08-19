@@ -10,10 +10,11 @@ $(document).ready(function () {
 
 const context = {
     tools: [ {
+        href: '#https://getbootstrap.com/docs/4.3/getting-started/introduction/',
        title: 'Bootstrap',
-       link: 'https://getbootstrap.com/docs/4.3/getting-started/introduction/'
     },
     {
+        href: '#Submenu',
         title: 'HTML Tutorials',
         site1: 'HTML Dog',
         link1: 'http://www.htmldog.com/',
@@ -23,6 +24,7 @@ const context = {
         link3: 'https://www.quackit.com/'
     },
     {
+        href: '#firstSubmenu',
         title: 'Image bank',
         site1: 'PixaBay',
         link1: 'https://pixabay.com/',
@@ -32,6 +34,7 @@ const context = {
         link3: 'https://unsplash.com/'
     },
     {
+        href: '#secondSubmenu',
         title: 'Icon bank',
         site1: 'Flaticon',
         link1: 'https://www.flaticon.com/',
