@@ -167,21 +167,50 @@ ul ul a {
 
 @media (max-width: 768px) {
 
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     #sidebar {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
+        min-width: 200px;
+        margin-right: 20px;
     }
+    
     #sidebar.active {
         margin-left: 0;
     }
+
     #sidebarCollapse span {
         display: none;
     }
-    .crop img {
 
+    .crop img {
+        height: 50%;
+    }
+
+    .welcome {
+        margin-top: -450px;
+        text-align: center;
     }
 }
 
+@media (max-width: 250px) {
 
+    #sidebar {
+    border-radius: 10px;
+    margin: 20px 0 20px 20px;
+    font-size: 0.6rem;  
+    }
+
+    .crop img {
+        display: none;
+    }
+
+    .col button {
+        padding-bottom: 20px;
+    }
+    
+}
