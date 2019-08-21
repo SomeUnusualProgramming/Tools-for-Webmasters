@@ -169,12 +169,15 @@ ul ul a {
 
 
     #sidebar {
-        
+        flex-wrap: wrap;
     }
     #sidebar.active {
         margin-left: 0;
     }
     #sidebarCollapse span {
         display: none;
+    }
+    .crop img {
+        
     }
 }
