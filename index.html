@@ -26,27 +26,29 @@
                 <li>
                     <a href="{{this.link1}}" target="_blank" rel="noopener noreferrer">{{this.site1}}</a>
                 </li>
-
-                <li>
-                    <a href="{{this.link2}}" target="_blank" rel="noopener noreferrer">{{this.site2}}</a>
-                </li>
+                
+                {{#if site2}}
+                    <li>
+                        <a href="{{this.link2}}" target="_blank" rel="noopener noreferrer">{{this.site2}}</a>
+                    </li>
+                {{/if}}
 
                 {{#if site3}}
-                <li>
-                    <a href="{{this.link3}}" target="_blank" rel="noopener noreferrer">{{this.site3}}</a>
-                </li>
+                    <li>
+                        <a href="{{this.link3}}" target="_blank" rel="noopener noreferrer">{{this.site3}}</a>
+                    </li>
                 {{/if}}
         
                 {{#if site4}}
-                <li>
-                    <a href="{{this.link4}}" target="_blank" rel="noopener noreferrer">{{this.site4}}</a>
-                </li>
+                    <li>
+                        <a href="{{this.link4}}" target="_blank" rel="noopener noreferrer">{{this.site4}}</a>
+                    </li>
                 {{/if}}
 
                 {{#if site5}}
-                <li>
-                    <a href="{{this.link5}}" target="_blank" rel="noopener noreferrer">{{this.site5}}</a>
-                </li>
+                    <li>
+                        <a href="{{this.link5}}" target="_blank" rel="noopener noreferrer">{{this.site5}}</a>
+                    </li>
                 {{/if}}
             </ul>
     </li>
