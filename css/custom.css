@@ -169,6 +169,7 @@ ul ul a {
 
 
     #sidebar {
+        display: flex;
         flex-wrap: wrap;
     }
     #sidebar.active {
@@ -178,6 +179,6 @@ ul ul a {
         display: none;
     }
     .crop img {
-        
+
     }
 }
