@@ -38,7 +38,7 @@ const context = {
         link3: 'https://unsplash.com/'
     },
     {
-        // Image bank //
+        // Icon bank //
         href: '#secondSubmenu',
         id: 'secondSubmenu',
         title: 'Icon bank',
@@ -52,7 +52,7 @@ const context = {
         link4: 'http://fontello.com/'
     },
     {
-        // Image bank //
+        // Colors //
         href: '#thirdSubmenu',
         id: 'thirdSubmenu',
         title: 'Colors',
@@ -64,7 +64,7 @@ const context = {
         link3: 'https://fontawesome.com/icons?d=gallery'
     },
     {
-        // Image bank //
+        // Snippets //
         href: '#fourthSubmenu',
         id: 'fourthSubmenu',
         title: 'Snippets',
@@ -76,7 +76,7 @@ const context = {
         link3: 'https://fontawesome.com/icons?d=gallery'
     },
     {
-        // Image bank //
+        // Code Editors //
         href: '#fifthSubmenu',
         id: 'fifthSubmenu',
         title: 'Code Editors',
@@ -88,7 +88,7 @@ const context = {
         link3: 'https://fontawesome.com/icons?d=gallery'
     },
     {
-        // Image bank //
+        // Validators //
         href: '#sixthSubmenu',
         id: 'sixthSubmenu',
         title: 'Validators',
@@ -100,7 +100,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
-        // Image bank //
+        // Image compresion //
         href: '#seventhSubmenu',
         id: 'seventhSubmenu',
         title: 'Image compresion',
@@ -112,7 +112,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
-        // Image bank //
+        // Online Editors //
         href: '#eigthSubmenu',
         id: 'eigthSubmenu',
         title: 'Online Editors',
@@ -124,7 +124,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
-        // Image bank //
+        // RWD //
         href: '#ninethSubmenu',
         id: 'ninethSubmenu',
         title: 'RWD',
@@ -136,7 +136,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
-        // Image bank //
+        // Books //
         href: '#tenthSubmenu',
         id: 'tenthSubmenu',
         title: 'Books',
