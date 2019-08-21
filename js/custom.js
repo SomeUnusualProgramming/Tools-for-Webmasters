@@ -13,7 +13,8 @@ const context = {
         href: 'https://getbootstrap.com/docs/4.3/getting-started/introduction/',
        title: 'Bootstrap',
     },
-    {
+    {   
+        // HTML TUtorials //
         href: '#Submenu',
         id: 'Submenu',
         title: 'HTML Tutorials',
@@ -25,6 +26,7 @@ const context = {
         link3: 'https://www.quackit.com/'
     },
     {
+        // Image bank //
         href: '#firstSubmenu',
         id: 'firstSubmenu',
         title: 'Image bank',
@@ -36,6 +38,7 @@ const context = {
         link3: 'https://unsplash.com/'
     },
     {
+        // Image bank //
         href: '#secondSubmenu',
         id: 'secondSubmenu',
         title: 'Icon bank',
@@ -49,6 +52,7 @@ const context = {
         link4: 'http://fontello.com/'
     },
     {
+        // Image bank //
         href: '#thirdSubmenu',
         id: 'thirdSubmenu',
         title: 'Colors',
@@ -60,6 +64,7 @@ const context = {
         link3: 'https://fontawesome.com/icons?d=gallery'
     },
     {
+        // Image bank //
         href: '#fourthSubmenu',
         id: 'fourthSubmenu',
         title: 'Snippets',
@@ -71,6 +76,7 @@ const context = {
         link3: 'https://fontawesome.com/icons?d=gallery'
     },
     {
+        // Image bank //
         href: '#fifthSubmenu',
         id: 'fifthSubmenu',
         title: 'Code Editors',
@@ -82,6 +88,7 @@ const context = {
         link3: 'https://fontawesome.com/icons?d=gallery'
     },
     {
+        // Image bank //
         href: '#sixthSubmenu',
         id: 'sixthSubmenu',
         title: 'Validators',
@@ -93,6 +100,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
+        // Image bank //
         href: '#seventhSubmenu',
         id: 'seventhSubmenu',
         title: 'Image compresion',
@@ -104,6 +112,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
+        // Image bank //
         href: '#eigthSubmenu',
         id: 'eigthSubmenu',
         title: 'Online Editors',
@@ -115,6 +124,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
+        // Image bank //
         href: '#ninethSubmenu',
         id: 'ninethSubmenu',
         title: 'RWD',
@@ -126,6 +136,7 @@ const context = {
         link3: 'https://tools.pingdom.com/'
     },
     {
+        // Image bank //
         href: '#tenthSubmenu',
         id: 'tenthSubmenu',
         title: 'Books',
