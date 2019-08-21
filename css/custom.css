@@ -182,3 +182,22 @@ ul ul a {
 
     }
 }
+
+
+@media (max-width: 640px) {
+
+
+    #sidebar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+    .crop img {
+
+    }
+}
