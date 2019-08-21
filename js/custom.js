@@ -56,8 +56,6 @@ const context = {
         link1: 'https://color.adobe.com/pl/create/color-wheel/',
         site2: 'Colorzilla',
         link2: 'https://www.colorzilla.com/gradient-editor/',
-        site3: 'FXXX',
-        link3: 'https://fontawesome.com/icons?d=gallery'
     },
     {
         // Snippets //
@@ -68,20 +66,19 @@ const context = {
         link1: 'https://stackoverflow.com/',
         site2: 'Snipplr',
         link2: 'https://snipplr.com/',
-        site3: 'XXX',
-        link3: 'https://fontawesome.com/icons?d=gallery'
+
     },
     {
         // Code Editors //
         href: '#fifthSubmenu',
         id: 'fifthSubmenu',
         title: 'Code Editors',
-        site1: 'XXX Visual',
-        link1: 'https://stackoverflow.com/',
-        site2: 'XXX Brackets',
-        link2: 'https://snipplr.com/',
-        site3: 'XXX Atom',
-        link3: 'https://fontawesome.com/icons?d=gallery'
+        site1: 'Visual Studio Code',
+        link1: 'https://code.visualstudio.com/',
+        site2: 'Brackets',
+        link2: 'http://brackets.io/',
+        site3: 'Atom',
+        link3: 'https://atom.io/'
     },
     {
         // Validators //
@@ -104,8 +101,6 @@ const context = {
         link1: 'https://www.jpegmini.com/',
         site2: 'Tiny PNG',
         link2: 'https://tinypng.com/',
-        site3: 'XXX',
-        link3: 'https://tools.pingdom.com/'
     },
     {
         // Online Editors //
@@ -116,8 +111,6 @@ const context = {
         link1: 'https://codepen.io/',
         site2: 'Liveweave',
         link2: 'https://liveweave.com/',
-        site3: 'XXX',
-        link3: 'https://tools.pingdom.com/'
     },
     {
         // RWD //
@@ -128,8 +121,6 @@ const context = {
         link1: 'https://activedemo.net/viewport-test',
         site2: 'Quirktools',
         link2: 'http://quirktools.com/screenfly',
-        site3: 'XXX',
-        link3: 'https://tools.pingdom.com/'
     },
     {
         // Books //
@@ -138,10 +129,6 @@ const context = {
         title: 'Books',
         site1: 'Eloquent JavaSCript',
         link1: 'https://eloquentjavascript.net/',
-        site2: 'XXX',
-        link2: 'http://quirktools.com/screenfly',
-        site3: 'XXX',
-        link3: 'https://tools.pingdom.com/'
     },
     {
         // Bootstrap //
