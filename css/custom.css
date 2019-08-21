@@ -171,6 +171,7 @@ ul ul a {
     #sidebar {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
     }
     #sidebar.active {
         margin-left: 0;
@@ -184,20 +185,3 @@ ul ul a {
 }
 
 
-@media (max-width: 640px) {
-
-
-    #sidebar {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-    #sidebarCollapse span {
-        display: none;
-    }
-    .crop img {
-
-    }
-}
