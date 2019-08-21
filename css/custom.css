@@ -142,6 +142,17 @@ ul ul a {
     text-align: center;
 }
 
+.col button {
+    background: none;
+    color: #008ae6;
+    border: 0;
+}
+
+.col button:hover {
+    transform: scale3d(1.2, 1.2, 1); 
+    -webkit-transform: scale3d(1.2, 1.2, 1); 
+    transition: all 0.35s cubic-bezier(0.000, 1.270, 0.460, 1.650); 
+    -webkit-transition: all 0.35s cubic-bezier(0.000, 1.270, 0.460, 1.650); }
 
 /* ---------------------------------------------------
     MEDIAQUERIES
