@@ -55,13 +55,14 @@ h3 {
     transition: all 0.3s;
     border-radius: 20px;
     margin: 20px 0 20px 20px;
-    }
+}
 
 
 #sidebar .sidebar-header {
     padding: 25px;
     background: #006bb3;
     border-bottom: 1px solid #008ae6;
+    border-radius: 20px;
 }
 
 .sidebar-header h3 {
