@@ -48,18 +48,17 @@ h3 {
 }
 
 #sidebar {
-    min-width: 250px;
-    max-width: 350px;
+    width: 330px;
     background: #006bb3;
     color: #fff;
     transition: all 0.3s;
     border-radius: 20px;
     margin: 20px 0 20px 20px;
+    position: relative;
 }
 
-
 #sidebar .sidebar-header {
-    padding: 25px;
+    padding: 10px;
     background: #006bb3;
     border-bottom: 1px solid #008ae6;
     border-radius: 20px;
@@ -69,10 +68,21 @@ h3 {
     text-align: center;
 }
 
-#sidebar ul.components {
-    padding: 20px 0;
+.sidebar-components {
+    padding-left: 0px;
+    list-style: none;
+    padding-bottom: 50px;
 }
 
+.sidebar-footer {
+    height: 30px;
+    min-width: 100%;
+    border-top: 1px solid #008ae6;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 100px;
+}
 
 #sidebar ul li a {
     padding: 10px;
@@ -86,14 +96,13 @@ h3 {
     background: #fff;
 }
 
-
 a[data-toggle="collapse"] {
     position: relative;
 }
 
 .dropdown-toggle::after {
     display: block;
-    position: absolute;
+    position: relative;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
@@ -104,8 +113,6 @@ ul ul a {
     padding-left: 30px !important;
     background: #008ae6;
 }
-
-
 
 /* ---------------------------------------------------
     CONTENT STYLE
