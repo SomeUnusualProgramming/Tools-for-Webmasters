@@ -9,11 +9,7 @@ $(document).ready(function () {
 
 
 const context = {
-    tools: [ {
-        href: 'https://getbootstrap.com/docs/4.3/getting-started/introduction/',
-       title: 'Bootstrap',
-    },
-    {   
+    tools: [ {   
         // HTML TUtorials //
         href: '#Submenu',
         id: 'Submenu',
@@ -146,6 +142,15 @@ const context = {
         link2: 'http://quirktools.com/screenfly',
         site3: 'XXX',
         link3: 'https://tools.pingdom.com/'
+    },
+    {
+        href: '#eleventhSubmenu',
+        id: 'eleventhSubmenu',
+        title: 'Bootstrap',
+        site1: 'Instalation',
+        link1: 'https://getbootstrap.com/docs/4.3/getting-started/introduction/',
+        site2: 'Components',
+        link2: 'https://getbootstrap.com/docs/4.1/components/alerts/',
     },
 ]};
 
