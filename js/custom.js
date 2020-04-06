@@ -51,11 +51,13 @@ const context = {
         // Colors //
         href: '#thirdSubmenu',
         id: 'thirdSubmenu',
-        title: 'Colors',
+        title: 'Color schemes',
         site1: 'Adobe Color',
         link1: 'https://color.adobe.com/pl/create/color-wheel/',
         site2: 'Colorzilla',
         link2: 'https://www.colorzilla.com/gradient-editor/',
+        site3: 'Coolors',
+        link3: 'https://coolors.co/'
     },
     {
         // Snippets //
