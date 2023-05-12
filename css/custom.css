@@ -44,7 +44,6 @@ h3 {
 
 .wrapper {
     display: flex;
-    width: 100%;
     align-items: stretch;
 }
 
@@ -54,9 +53,8 @@ h3 {
     color: #fff;
     transition: all 0.3s;
     border-radius: 20px;
-    margin: 20px 0;
-    position: relative;
-}  
+    margin-right: 20px;
+}
 
 #sidebar.sidebar-expanded {
     width: 80px;
@@ -141,12 +139,7 @@ ul ul a {
 ----------------------------------------------------- */
 
 #content {
-    width: 100%;
-    padding: 20px;
-    min-height: 100vh;
-    transition: all 0.3s;
-    background-color: #1e1e1e;
-    color: #fff;
+    flex-grow: 1;
 }
 
 .crop {
