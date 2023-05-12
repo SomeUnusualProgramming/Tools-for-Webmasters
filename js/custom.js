@@ -155,7 +155,11 @@ $(document).ready(function() {
     // Obsługa kliknięcia przycisku "Collapse"
     $("#collapse-btn").click(function() {
       // Znajdź wszystkie podmenu i zwij je
-      $(".sidebar-components .collapse.show").removeClass("show");
+      $(".sidebar-components .collapse.show").removeClass("show").addClass("collapsing");
+      setTimeout(function() {
+        $(".sidebar-components .collapsing").removeClass("collapsing").addClass("collapse");
+      }, 350); // Delay time in milliseconds (adjust as needed)
     });
   });
+  
   
