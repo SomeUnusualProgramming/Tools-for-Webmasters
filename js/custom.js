@@ -154,8 +154,9 @@ document.getElementById('components').innerHTML = compiledHTML;
 $(document).ready(function() {
     // Handle Collapse button click
     $("#collapse-btn").click(function() {
-      $(".sidebar-components ul.collapse").toggleClass("show");
+      $(".sidebar-components ul.collapse").removeClass("show");
     });
   });
+  
   
   
