@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');
-        
+
     });
 
 });
@@ -244,7 +244,8 @@ const context = {
                 }
             ]
         }
-]};
+    ]
+};
 
 
 const templateElement = document.getElementById('templateHB');
@@ -253,12 +254,9 @@ const template = Handlebars.compile(templateSource);
 const compiledHTML = template(context);
 document.getElementById('components').innerHTML = compiledHTML;
 
-$(document).ready(function() {
+$(document).ready(function () {
     // Handle Collapse button click
-    $("#collapse-btn").click(function() {
-      $(".sidebar-components ul.collapse").collapse("hide");
+    $("#collapse-btn").click(function () {
+        $(".sidebar-components ul.collapse").collapse("hide");
     });
-  });  
-  
-  
-  
+});  
