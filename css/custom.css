@@ -126,14 +126,15 @@ h3 {
     SIDEBAR EFFECT
 ----------------------------------------------------- */
 
-    #sidebar {
-        /* ... existing styles ... */
-        transition: width 0.7s;
+    .sidebar-components ul.collapse {
+        transition: max-height 0.3s ease-out;
+        overflow: hidden;
+        max-height: 1000px;
     }
-
-    #sidebar.collapsed {
-        width: 50px; /* Adjust the desired collapsed width */
-      }
+    
+    .sidebar-components ul.collapse:not(.show) {
+        max-height: 0;
+    }  
       
 /* ---------------------------------------------------
     CONTENT STYLE

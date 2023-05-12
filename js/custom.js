@@ -152,8 +152,10 @@ const compiledHTML = template(context);
 document.getElementById('components').innerHTML = compiledHTML;
 
 $(document).ready(function() {
-    // Obsługa kliknięcia przycisku "Collapse"
+    // Handle Collapse button click
     $("#collapse-btn").click(function() {
-      $("#sidebar").toggleClass("collapsed");
+      $(".sidebar-components ul.collapse").toggleClass("show");
     });
-  });  
+  });
+  
+  
