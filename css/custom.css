@@ -122,12 +122,12 @@ h3 {
     background: #008ae6;
   }
 
-  /* ---------------------------------------------------
+/* ---------------------------------------------------
     SIDEBAR EFFECT
 ----------------------------------------------------- */
 
     .sidebar-components ul.collapse {
-        transition: max-height 0.5s ease-out;
+        transition: max-height 0.8s ease-out;
         overflow: hidden;
         max-height: 1000px;
     }
