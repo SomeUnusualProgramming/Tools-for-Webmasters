@@ -50,7 +50,7 @@ h3 {
 
 #sidebar {
     width: 330px;
-    background: #212121;
+    background: #293241;
     color: #fff;
     transition: all 0.3s;
     border-radius: 20px;
@@ -68,8 +68,8 @@ h3 {
 
 #sidebar .sidebar-header {
     padding: 10px;
-    background: #212121;
-    border-bottom: 1px solid #555;
+    background: #1c2331;
+    border-bottom: 1px solid #384f66;
     border-radius: 20px;
 }
 
@@ -87,7 +87,7 @@ h3 {
 .sidebar-footer {
     height: 30px;
     min-width: 100%;
-    border-top: 1px solid #555;
+    border-top: 1px solid #384f66;
     border-radius: 20px;
     position: absolute;
     bottom: 0;
@@ -103,8 +103,8 @@ h3 {
 }
 
 #sidebar ul li a:hover {
-    color: #008ae6;
-    background: #444;
+    color: #c9d6df;
+    background: #1c2331;
 }
 
 a[data-toggle="collapse"] {
@@ -122,8 +122,9 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 1em !important;
     padding-left: 30px !important;
-    background: #444;
+    background: #384f66;
 }
+
 
 /* ---------------------------------------------------
     SIDEBAR EFFECT
