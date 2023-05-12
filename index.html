@@ -18,39 +18,17 @@
 
 <!-- Handlebars -->
 <script src="js/handlebars.min.js"></script>
-<script id="templateHB" type="text/x-handlebars=template">
+<script id="templateHB" type="text/x-handlebars-template">
     {{#each tools}}
     <li>
-        <a href={{this.href}} data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" >{{this.title}}</a>
-            <ul class="collapse list-unstyled" id="{{this.id}}">
-                <li>
-                    <a href="{{this.link1}}" target="_blank" rel="noopener noreferrer">{{this.site1}}</a>
-                </li>
-                
-                {{#if site2}}
-                    <li>
-                        <a href="{{this.link2}}" target="_blank" rel="noopener noreferrer">{{this.site2}}</a>
-                    </li>
-                {{/if}}
-
-                {{#if site3}}
-                    <li>
-                        <a href="{{this.link3}}" target="_blank" rel="noopener noreferrer">{{this.site3}}</a>
-                    </li>
-                {{/if}}
-        
-                {{#if site4}}
-                    <li>
-                        <a href="{{this.link4}}" target="_blank" rel="noopener noreferrer">{{this.site4}}</a>
-                    </li>
-                {{/if}}
-
-                {{#if site5}}
-                    <li>
-                        <a href="{{this.link5}}" target="_blank" rel="noopener noreferrer">{{this.site5}}</a>
-                    </li>
-                {{/if}}
-            </ul>
+        <a href="{{this.href}}" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">{{this.title}}</a>
+        <ul class="collapse list-unstyled" id="{{this.id}}">
+            {{#each sites}}
+            <li>
+                <a href="{{this.link}}" target="_blank" rel="noopener noreferrer" title="{{this.description}}">{{this.name}}</a>
+            </li>
+            {{/each}}
+        </ul>
     </li>
     {{/each}}
 </script>

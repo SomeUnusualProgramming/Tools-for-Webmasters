@@ -9,139 +9,241 @@ $(document).ready(function () {
 
 
 const context = {
-    tools: [ {   
-        // HTML TUtorials //
-        href: '#Submenu',
-        id: 'Submenu',
-        title: 'HTML Tutorials',
-        site1: 'HTML Dog',
-        link1: 'http://www.htmldog.com/',
-        site2: 'W3Schools',
-        link2: 'https://www.w3schools.com/',
-        site3: 'Quackit',
-        link3: 'https://www.quackit.com/'
-    },
-    {
-        // Image bank //
-        href: '#firstSubmenu',
-        id: 'firstSubmenu',
-        title: 'Image bank',
-        site1: 'PixaBay',
-        link1: 'https://pixabay.com/',
-        site2: 'Pexels',
-        link2: 'https://www.pexels.com/',
-        site3: 'Unsplash',
-        link3: 'https://unsplash.com/'
-    },
-    {
-        // Icon bank //
-        href: '#secondSubmenu',
-        id: 'secondSubmenu',
-        title: 'Icon bank',
-        site1: 'Flaticon',
-        link1: 'https://www.flaticon.com/',
-        site2: 'Freepik',
-        link2: 'https://www.freepik.com/',
-        site3: 'Font Awesome',
-        link3: 'https://fontawesome.com/icons?d=gallery',
-        site4: 'Fontello',
-        link4: 'http://fontello.com/'
-    },
-    {
-        // Colors //
-        href: '#thirdSubmenu',
-        id: 'thirdSubmenu',
-        title: 'Color schemes',
-        site1: 'Adobe Color',
-        link1: 'https://color.adobe.com/pl/create/color-wheel/',
-        site2: 'Colorzilla',
-        link2: 'https://www.colorzilla.com/gradient-editor/',
-        site3: 'Coolors',
-        link3: 'https://coolors.co/'
-    },
-    {
-        // Snippets //
-        href: '#fourthSubmenu',
-        id: 'fourthSubmenu',
-        title: 'Snippets',
-        site1: 'Stack overflow',
-        link1: 'https://stackoverflow.com/',
-        site2: 'Snipplr',
-        link2: 'https://snipplr.com/',
-
-    },
-    {
-        // Code Editors //
-        href: '#fifthSubmenu',
-        id: 'fifthSubmenu',
-        title: 'Code Editors',
-        site1: 'Visual Studio Code',
-        link1: 'https://code.visualstudio.com/',
-        site2: 'Brackets',
-        link2: 'http://brackets.io/',
-        site3: 'Atom',
-        link3: 'https://atom.io/'
-    },
-    {
-        // Validators //
-        href: '#sixthSubmenu',
-        id: 'sixthSubmenu',
-        title: 'Validators',
-        site1: 'W3C Validator',
-        link1: 'https://validator.w3.org/',
-        site2: 'Mobile optimialization by Google',
-        link2: 'https://search.google.com/test/mobile-friendly',
-        site3: 'Page Speed test',
-        link3: 'https://tools.pingdom.com/'
-    },
-    {
-        // Image compresion //
-        href: '#seventhSubmenu',
-        id: 'seventhSubmenu',
-        title: 'Image compresion',
-        site1: 'JPEG Mini',
-        link1: 'https://www.jpegmini.com/',
-        site2: 'Tiny PNG',
-        link2: 'https://tinypng.com/',
-    },
-    {
-        // Online Editors //
-        href: '#eigthSubmenu',
-        id: 'eigthSubmenu',
-        title: 'Online Editors',
-        site1: 'Codepen',
-        link1: 'https://codepen.io/',
-        site2: 'Liveweave',
-        link2: 'https://liveweave.com/',
-    },
-    {
-        // RWD //
-        href: '#ninethSubmenu',
-        id: 'ninethSubmenu',
-        title: 'RWD',
-        site1: 'Active Demo',
-        link1: 'https://activedemo.net/viewport-test',
-        site2: 'Quirktools',
-        link2: 'http://quirktools.com/screenfly',
-    },
-    {
-        // Books //
-        href: '#tenthSubmenu',
-        id: 'tenthSubmenu',
-        title: 'Books',
-        site1: 'Eloquent JavaSCript',
-        link1: 'https://eloquentjavascript.net/',
-    },
-    {
-        // Bootstrap //
-        href: '#eleventhSubmenu',
-        id: 'eleventhSubmenu',
-        title: 'Bootstrap',
-        site1: 'Instalation',
-        link1: 'https://getbootstrap.com/docs/4.3/getting-started/introduction/',
-        site2: 'Components',
-        link2: 'https://getbootstrap.com/docs/4.1/components/alerts/',
-    },
+    tools: [
+        {
+            href: '#Submenu',
+            id: 'Submenu',
+            title: 'HTML Tutorials',
+            sites: [
+                {
+                    name: 'HTML Dog',
+                    link: 'http://www.htmldog.com/',
+                    description: 'Learn HTML through tutorials and guides'
+                },
+                {
+                    name: 'W3Schools',
+                    link: 'https://www.w3schools.com/',
+                    description: 'Online web development tutorials and references'
+                },
+                {
+                    name: 'Quackit',
+                    link: 'https://www.quackit.com/',
+                    description: 'Web development tutorials and resources'
+                }
+            ]
+        },
+        {
+            href: '#firstSubmenu',
+            id: 'firstSubmenu',
+            title: 'Image bank',
+            sites: [
+                {
+                    name: 'PixaBay',
+                    link: 'https://pixabay.com/',
+                    description: 'Explore a vast collection of free images and videos'
+                },
+                {
+                    name: 'Pexels',
+                    link: 'https://www.pexels.com/',
+                    description: 'Discover high-quality free stock photos and videos'
+                },
+                {
+                    name: 'Unsplash',
+                    link: 'https://unsplash.com/',
+                    description: 'Access a large library of free, high-resolution photos'
+                }
+            ]
+        },
+        {
+            href: '#secondSubmenu',
+            id: 'secondSubmenu',
+            title: 'Icon bank',
+            sites: [
+                {
+                    name: 'Flaticon',
+                    link: 'https://www.flaticon.com/',
+                    description: 'Find free vector icons for your projects'
+                },
+                {
+                    name: 'Freepik',
+                    link: 'https://www.freepik.com/',
+                    description: 'Discover millions of free graphic resources'
+                },
+                {
+                    name: 'Font Awesome',
+                    link: 'https://fontawesome.com/icons?d=gallery',
+                    description: 'The web\'s most popular icon set and toolkit'
+                },
+                {
+                    name: 'Fontello',
+                    link: 'http://fontello.com/',
+                    description: 'Icon fonts generator and icon library'
+                }
+            ]
+        },
+        {
+            href: '#thirdSubmenu',
+            id: 'thirdSubmenu',
+            title: 'Color schemes',
+            sites: [
+                {
+                    name: 'Adobe Color',
+                    link: 'https://color.adobe.com/pl/create/color-wheel/',
+                    description: 'Create and explore color schemes'
+                },
+                {
+                    name: 'Colorzilla',
+                    link: 'https://www.colorzilla.com/gradient-editor/',
+                    description: 'Advanced CSS gradient generator'
+                },
+                {
+                    name: 'Coolors',
+                    link: 'https://coolors.co/',
+                    description: 'Generate and explore color palettes'
+                }
+            ]
+        },
+        {
+            href: '#fourthSubmenu',
+            id: 'fourthSubmenu',
+            title: 'Snippets',
+            sites: [
+                {
+                    name: 'Stack Overflow',
+                    link: 'https://stackoverflow.com/',
+                    description: 'Q&A community for developers'
+                },
+                {
+                    name: 'Snipplr',
+                    link: 'https://snipplr.com/',
+                    description: 'Code snippets repository'
+                }
+            ]
+        },
+        {
+            href: '#fifthSubmenu',
+            id: 'fifthSubmenu',
+            title: 'Code Editors',
+            sites: [
+                {
+                    name: 'Visual Studio Code',
+                    link: 'https://code.visualstudio.com/',
+                    description: 'Free and powerful source code editor'
+                },
+                {
+                    name: 'Brackets',
+                    link: 'http://brackets.io/',
+                    description: 'Open-source code editor for web design'
+                },
+                {
+                    name: 'Atom',
+                    link: 'https://atom.io/',
+                    description: 'A hackable text editor for the 21st century'
+                }
+            ]
+        },
+        {
+            href: '#sixthSubmenu',
+            id: 'sixthSubmenu',
+            title: 'Validators',
+            sites: [
+                {
+                    name: 'W3C Validator',
+                    link: 'https://validator.w3.org/',
+                    description: 'Markup validation service by W3C'
+                },
+                {
+                    name: 'Mobile Optimization by Google',
+                    link: 'https://search.google.com/test/mobile-friendly',
+                    description: 'Check mobile-friendliness of your website'
+                },
+                {
+                    name: 'Page Speed Test',
+                    link: 'https://tools.pingdom.com/',
+                    description: 'Website performance and speed testing'
+                }
+            ]
+        },
+        {
+            href: '#seventhSubmenu',
+            id: 'seventhSubmenu',
+            title: 'Image Compression',
+            sites: [
+                {
+                    name: 'JPEG Mini',
+                    link: 'https://www.jpegmini.com/',
+                    description: 'Reduce the file size of JPEG images'
+                },
+                {
+                    name: 'TinyPNG',
+                    link: 'https://tinypng.com/',
+                    description: 'Compress PNG images without quality loss'
+                }
+            ]
+        },
+        {
+            href: '#eighthSubmenu',
+            id: 'eighthSubmenu',
+            title: 'Online Editors',
+            sites: [
+                {
+                    name: 'CodePen',
+                    link: 'https://codepen.io/',
+                    description: 'Front-end development playground'
+                },
+                {
+                    name: 'Liveweave',
+                    link: 'https://liveweave.com/',
+                    description: 'Online HTML, CSS, and JavaScript editor'
+                }
+            ]
+        },
+        {
+            href: '#ninthSubmenu',
+            id: 'ninthSubmenu',
+            title: 'Responsive Web Design',
+            sites: [
+                {
+                    name: 'Active Demo',
+                    link: 'https://activedemo.net/viewport-test',
+                    description: 'Test responsive web design on various devices'
+                },
+                {
+                    name: 'Quirktools',
+                    link: 'http://quirktools.com/screenfly',
+                    description: 'Test your website\'s responsiveness'
+                }
+            ]
+        },
+        {
+            href: '#tenthSubmenu',
+            id: 'tenthSubmenu',
+            title: 'Books',
+            sites: [
+                {
+                    name: 'Eloquent JavaScript',
+                    link: 'https://eloquentjavascript.net/',
+                    description: 'A book about JavaScript programming'
+                }
+            ]
+        },
+        {
+            href: '#eleventhSubmenu',
+            id: 'eleventhSubmenu',
+            title: 'Bootstrap',
+            sites: [
+                {
+                    name: 'Installation',
+                    link: 'https://getbootstrap.com/docs/4.3/getting-started/introduction/',
+                    description: 'Guide for installing Bootstrap framework'
+                },
+                {
+                    name: 'Components',
+                    link: 'https://getbootstrap.com/docs/4.1/components/alerts/',
+                    description: 'Explore the components provided by Bootstrap'
+                }
+            ]
+        }
 ]};
 
 
