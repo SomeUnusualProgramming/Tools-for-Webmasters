@@ -1,9 +1,11 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-body {
+html, body {
     font-family: 'Poppins', sans-serif;
     background-color: #1e1e1e;
     color: #fff;
+    height: 100%;
+    overflow: hidden;
 }
 
 p {
@@ -44,16 +46,45 @@ h3 {
 
 .wrapper {
     display: flex;
+    height: 100%;
     align-items: stretch;
-}
-
-#sidebar {
+  }
+  
+  #sidebar {
     width: 330px;
     background: #293241;
     color: #fff;
     transition: all 0.3s;
-    margin-right: 20px;
-}
+    border-radius: 20px;
+    margin: 20px 0 20px 20px;
+    position: relative;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+  
+
+  
+  /* Adjustments for scrollbar */
+  #sidebar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #sidebar::-webkit-scrollbar-thumb {
+    background-color: #384f66;
+    border-radius: 4px;
+  }
+  
+  #content::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  #content::-webkit-scrollbar-thumb {
+    background-color: #384f66;
+    border-radius: 4px;
+  }
+  
+  With this CSS, the height of the page will be fixed, and both the sidebar and content area will have scrollbars if their content exceeds the available height. The sidebar will expand on the right side and drop down when its content overflows.
+  
 
 #sidebar.sidebar-expanded {
     width: 80px;
@@ -138,8 +169,11 @@ ul ul a {
 ----------------------------------------------------- */
 
 #content {
+    padding: 20px;
+    min-height: 0;
     flex-grow: 1;
-}
+    overflow-y: auto;
+  }
 
 .crop {
     width: 100%;
