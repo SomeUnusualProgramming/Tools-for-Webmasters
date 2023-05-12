@@ -150,3 +150,12 @@ const templateSource = templateElement.innerHTML;
 const template = Handlebars.compile(templateSource);
 const compiledHTML = template(context);
 document.getElementById('components').innerHTML = compiledHTML;
+
+$(document).ready(function() {
+    // Obsługa kliknięcia przycisku "Collapse"
+    $("#collapse-btn").click(function() {
+      // Znajdź wszystkie podmenu i zwij je
+      $(".sidebar-components .collapse.show").removeClass("show");
+    });
+  });
+  

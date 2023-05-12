@@ -46,62 +46,68 @@ h3 {
     width: 100%;
     align-items: stretch;
   }
-  
+
   #sidebar {
     width: 330px;
-    background: #008ae6;
+    background: #006bb3;
     color: #fff;
     transition: all 0.3s;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px 0 20px 20px;
     position: relative;
   }
-  
+
+  #sidebar.sidebar-expanded {
+    width: 80px;
+  }
+
+  #sidebar.sidebar-expanded .sidebar-header {
+    display: none;
+  }
+
   #sidebar .sidebar-header {
     padding: 10px;
-    background: #008ae6;
-    border-bottom: 1px solid #00aaff;
-    border-radius: 10px;
+    background: #006bb3;
+    border-bottom: 1px solid #008ae6;
+    border-radius: 20px;
   }
-  
+
   .sidebar-header h3 {
     text-align: center;
-    color: #fff;
   }
-  
+
   .sidebar-components {
-    padding-left: 0;
+    padding-left: 0px;
     list-style: none;
     padding-bottom: 50px;
   }
-  
+
   .sidebar-footer {
     height: 30px;
     min-width: 100%;
-    border-top: 1px solid #00aaff;
-    border-radius: 10px;
+    border-top: 1px solid #008ae6;
+    border-radius: 20px;
     position: absolute;
     bottom: 0;
     padding-left: 100px;
   }
-  
+
   #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
     display: block;
     font-size: 120%;
-    color: #fff;
   }
-  
+
   #sidebar ul li a:hover {
-    color: #00aaff;
+    color: #008ae6;
     background: #fff;
   }
-  
+
   a[data-toggle="collapse"] {
     position: relative;
   }
-  
+
   .dropdown-toggle::after {
     display: block;
     position: relative;
@@ -109,13 +115,12 @@ h3 {
     right: 20px;
     transform: translateY(-50%);
   }
-  
+
   ul ul a {
     font-size: 1em !important;
     padding-left: 30px !important;
-    background: #00aaff;
-    color: #fff;
-  }  
+    background: #008ae6;
+  }
 
   /* ---------------------------------------------------
     SIDEBAR EFFECT
