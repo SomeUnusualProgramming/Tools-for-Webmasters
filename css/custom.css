@@ -183,6 +183,11 @@ ul ul a {
     border-radius: 20px;
 }
 
+.description {
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate the description from the image */
+  }
+  
 
 /* ---------------------------------------------------
     CONTACT
