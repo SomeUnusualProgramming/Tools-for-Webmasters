@@ -52,7 +52,6 @@ h3 {
     background: #293241;
     color: #fff;
     transition: all 0.3s;
-    border-radius: 20px;
     margin-right: 20px;
 }
 
@@ -240,7 +239,6 @@ ul ul a {
 @media (max-width: 250px) {
 
     #sidebar {
-        border-radius: 10px;
         margin: 20px 0 20px 20px;
         font-size: 0.6rem;  
     }
