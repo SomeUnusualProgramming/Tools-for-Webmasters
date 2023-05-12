@@ -54,13 +54,9 @@ h3 {
     color: #fff;
     transition: all 0.3s;
     border-radius: 20px;
-    margin: 20px 0 20px 0; /* Remove the left margin */
-    position: fixed; /* Change position to fixed */
-    top: 0;
-    bottom: 0;
-    left: 0;
-  }
-  
+    margin: 20px 0;
+    position: relative;
+}  
 
 #sidebar.sidebar-expanded {
     width: 80px;
